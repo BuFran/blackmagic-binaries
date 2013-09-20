@@ -1,0 +1,7 @@
+target extended-remote com3
+monitor connect_srst enable
+monitor swdp_scan
+attach 1
+monitor option erase
+detach
+quit
